@@ -88,6 +88,7 @@ img {
     float: left;
     height: 150px;
     width: 210px;
+    transform: perspective(400px) rotateY(25deg);
     background-color: #b1ccc9;
     box-shadow: 5px 5px 2px #b1ccc9;
 }
@@ -95,6 +96,7 @@ img {
     float: right;
     height: 150px;
     width: 210px;
+    transform: perspective(400px) rotateY(-25deg);
     background-color: #b1ccc9;
     box-shadow: 0px 5px 2px  #b1ccc9;
 }
