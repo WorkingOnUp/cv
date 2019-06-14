@@ -4,7 +4,7 @@ var face1,face2,flag=0,point1=0,point2=0,opoint1=0,opoint2=0;
             initText1.textContent = 'Press the button to begin';
             document.querySelector('.textOneBoard').appendChild(initText1);
             const initText2 = document.createElement('h1');
-            initText2.textContent = 'Press the button to begin';
+            initText2.textContent = 'Wait for Player One to begin';
             document.querySelector('.textTwoBoard').appendChild(initText2);
             const initScore1 = document.createElement('h1');
             initScore1.textContent = 'Score: 0';
