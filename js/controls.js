@@ -18,6 +18,3 @@ $(function() {
         $(this).addClass('active');
     });
 });
-$('#download').click(function () {
-    window.location = 'CV_ANNA_CHACKO.pdf'
-})
